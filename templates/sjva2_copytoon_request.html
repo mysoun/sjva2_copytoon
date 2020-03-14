@@ -7,7 +7,7 @@
 </div> <!--전체-->
 
 <script type="text/javascript">
-var package_name = 'copytoon';
+var package_name = 'sjva2_copytoon';
 
 $("body").on('click', '#download_btn', function(e){
   e.preventDefault();
@@ -22,7 +22,7 @@ $("body").on('click', '#download_btn', function(e){
     dataType: "json",
     success: function (ret) {
       if (ret) {
-        //window.open('/copytoon/queue');
+        //window.open('/sjva2_copytoon/queue');
         window.location.href = '/sjva2_copytoon/queue'
         $.notify('<strong>큐에 추가하였습니다.</strong>', {
           type: 'success'
