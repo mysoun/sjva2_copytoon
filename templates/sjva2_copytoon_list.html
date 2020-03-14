@@ -29,7 +29,7 @@
 </div>
 
 <script type="text/javascript">
-var package_name = 'copytoon';
+var package_name = 'sjva2_copytoon';
 var current_data = null;
 
 function request_search(page, move_top=true) {
@@ -124,7 +124,7 @@ $("body").on('click', '#all_download_btn', function(e){
     dataType: "json",
     success: function (ret) {
       if (ret) {
-        $(location).attr('href', '/manamoa/queue')
+        $(location).attr('href', '/sjva2_copytoon/queue')
       } else {
         $.notify('<strong>실패</strong>', {
           type: 'warning'
