@@ -38,7 +38,7 @@ def plugin_unload():
 plugin_info = {
     'version' : '0.1.0',
     'name' : '카피툰 다운로드',
-    'category_name' : 'service',
+    'category_name' : 'cartoon',
     'icon' : '',
     'developer' : 'jackie',
     'description' : '카피툰 다운로드',
