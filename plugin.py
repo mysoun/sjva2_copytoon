@@ -37,11 +37,11 @@ def plugin_unload():
 
 plugin_info = {
     'version' : '0.1.0',
-    'name' : '카피툰 다운로드',
+    'name' : '만화다운로더-카피툰',
     'category_name' : 'cartoon',
     'icon' : '',
     'developer' : 'jackie',
-    'description' : '카피툰 다운로드',
+    'description' : '만화다운로더-카피툰<br>원작자:noname님',
     'home' : 'https://github.com/mysoun/sjva2_copytoon',
     'more' : '',
 }
@@ -49,7 +49,7 @@ plugin_info = {
 
 # 메뉴 구성.
 menu = {
-    'main' : [package_name, '카피툰 다운로드'],
+    'main' : [package_name, '만화다운로더-카피툰'],
     'sub' : [
         ['setting', '설정'], ['request', '요청'], ['queue', '큐'], ['list', '목록'], ['log', '로그']
     ], 
